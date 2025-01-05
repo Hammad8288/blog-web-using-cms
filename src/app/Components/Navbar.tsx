@@ -25,9 +25,9 @@ export default function Navbar() {
           <div
             className={`${
               isOpen ? "block" : "hidden"
-            } absolute top-full left-0 w-full bg-white md:static md:flex md:items-center md:w-auto `}
+            } absolute top-full left-0 w-full bg-white sm:static sm:flex sm:items-center sm:w-auto `}
           >
-            <div className="flex flex-col items-center space-y-4 py-4 md:flex-row md:space-y-0 md:space-x-8 md:py-0 md:px-72">
+            <div className="flex flex-col items-center space-y-4 py-4 sm:flex-row sm:space-y-0 sm:space-x-8 sm:py-0 sm:px-72">
               <Link
                 href={"/"}
                 className="text-gray-800 hover:font-bold hover:underline hover:underline-offset-2"
@@ -54,7 +54,7 @@ export default function Navbar() {
               </Link>
             </div>
 
-            <div className="flex justify-center gap-6 md:gap-2 items-center py-4 md:flex-row md:space-x-4 md:py-0">
+            <div className="flex justify-center gap-6 sm:gap-2 items-center py-4 sm:flex-row sm:space-x-4 sm:py-0">
               <Link
                 href={"/Sign-Up"}
                 className="hover:font-bold bg-slate-100 px-6 py-2 rounded-lg text-gray-800"
