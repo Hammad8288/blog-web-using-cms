@@ -6,7 +6,7 @@ import Image from "next/image";
 import CommentsSection from "@/app/comments";
 
 
-// Next.js configurations
+// Next.js configurations`
 export const dynamic = "auto";
 export const runtime = "nodejs";
 export const dynamicParams = true;
